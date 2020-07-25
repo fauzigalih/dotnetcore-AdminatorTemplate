@@ -11,27 +11,22 @@ namespace dotnetcore_AdminatorTemplate.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        public IActionResult Index() => View();
+        public IActionResult Email() => View();
+        public IActionResult Compose() => View();
+        public IActionResult Calendar() => View();
+        public IActionResult Chat() => View();
+        public IActionResult Charts() => View();
+        public IActionResult Forms() => View();
+        public IActionResult Ui() => View();
+        public IActionResult BasicTable() => View();
+        public IActionResult DataTable() => View();
+        public IActionResult GoogleMaps() => View();
+        public IActionResult VectorMaps() => View();
+        public IActionResult Blank() => View();
+        public IActionResult Page404() => View();
+        public IActionResult Page500() => View();
+        public IActionResult SignIn() => View();
+        public IActionResult SignUp() => View();
     }
 }
