@@ -1,2 +1,2 @@
-# dotnetcore-AdminatorTemplate
+# Adminator Template
  
