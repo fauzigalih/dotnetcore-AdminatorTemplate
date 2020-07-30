@@ -1,2 +1,2 @@
-# Adminator Template
+# Adminator Template .
  
